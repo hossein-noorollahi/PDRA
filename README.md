@@ -25,9 +25,10 @@ Step 2: Fetching CID and SMILES
 - Read the filtered file filtered_cp_above_90.csv.
 - Extract the list of drug names.
 - Use PubChem API to fetch the CID and SMILES notation for each drug:
+
 	- CID: Unique identifier for compounds in PubChem.
 	- SMILES: Chemical structure representation.
 
--Save two output files:
+- Save two output files:
 	- compounds.csv: Includes drug name, CID, and SMILES notation.
 	- molecules_for_adme.txt: Contains SMILES formatted for SwissADME input.
