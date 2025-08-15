@@ -1,7 +1,7 @@
 # PDRA
 Post Drug repurposing analysis utilizing ADME screening, toxicity predictions with Tox21, and QSAR modeling to evaluate absorption, distribution, metabolism, and excretion profiles, predict toxicities, and assess molecular activity. This streamlined workflow accelerates drug discovery while ensuring safety and efficacy.
 
-Step-by-Step Explanation
+#**Step-by-Step Explanation**
 
 Imported Libraries
 
@@ -32,3 +32,5 @@ Step 2: Fetching CID and SMILES
 - Save two output files:
 	- compounds.csv: Includes drug name, CID, and SMILES notation.
 	- molecules_for_adme.txt: Contains SMILES formatted for SwissADME input.
+
+**This script is designed to streamline the process of filtering drug repurposing results and preparing molecular data for SwissADME analysis.**
